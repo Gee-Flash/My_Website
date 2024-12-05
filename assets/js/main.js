@@ -121,3 +121,19 @@ function toggleMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('show'); // This adds or removes the 'show' class
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    let text = "Ready to work with us?";
+    let i = 0;
+    let typingSpeed = 150; // Speed of typing effect
+
+    function typeWriter() {
+        if (i < text.length) {
+            document.getElementById("typing-text").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, typingSpeed);
+        }
+    }
+
+    typeWriter(); // Start typing effect once page loads
+});

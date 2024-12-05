@@ -243,10 +243,6 @@ html, body {
     color: #000000;
 }
 
-/* .fa-bars, .bars {
-    font-size: 25px;
-    display: none;
-} */
 
 .owl-carousel .slide {
     height: 100vh;
@@ -300,10 +296,10 @@ html, body {
 }
 
 .big-image {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    margin-right: -50px;
+    margin-right: -35px;
     background-color: lightgray; /* Placeholder for the big image */
     position: relative;
     background-size: cover; /* Ensure background image covers the circle */
@@ -312,8 +308,8 @@ html, body {
 
 /* Styling for Small Images */
 .small-image {
-    width: 100px; /* Adjust size as needed */
-    height: 100px;
+    width: 75px; /* Adjust size as needed */
+    height: 75px;
     border-radius: 50%;
     position: absolute;
     background-size: cover; /* Ensure background image covers the circle */
@@ -322,23 +318,23 @@ html, body {
 
 /* Position Each Small Image Equally on the Left */
 .small-image-1 {
-    top: 2px;
+    top: 0.5px;
     left: -20px;
 }
 
 .small-image-2 {
-    top: 120px;
-    left: -70px;
+    top: 80px;
+    left: -50px;
 }
 
 .small-image-3 {
-    top: 230px;
-    left: -80px;
+    top: 170px;
+    left: -60px;
 }
 
 .small-image-4 {
-    top: 350px;
-    left: -30px;
+    top: 250px;
+    left: -20px;
     background-color: lightgrey;
 }
 
@@ -436,7 +432,7 @@ html, body {
 }
 
 .about-content h3 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: hind madurai,sans-serif;
     margin-bottom: 10px;
     color: #000000;
@@ -464,27 +460,21 @@ html, body {
 }
 
 .service-item i {
-    font-size: 50px;
+    font-size: 30px;
     color: #fdac2b;
     margin-right: 10px;
 }
 
 .service-item span {
-    font-size: 20px;
+    font-size: 16px;
     font-family: hind madurai, sans-serif;
     color: #000000;
     font-weight: 600;
     text-align: left;
 }
 
-.service-item h4 {
-    font-size: 18px;
-    color: #007BFF;
-    margin: 0 0 5px;
-}
-
 .services-text span {
-    font-size: 16px;
+    font-size: 14px;
     font-family: jost, sans-serif;
 }
 
@@ -761,7 +751,7 @@ html, body {
 }
 
 .content-container h5 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: hind madurai, sans-serif;
     margin: 0px 0px 5px;
     margin-bottom: 10px;
