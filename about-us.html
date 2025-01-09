@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About US</title>
     <link rel="stylesheet" href="assets/css/about-us.css">
-    <link id="themeStyle" rel="stylesheet" href="assets/css/light.css">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <!-- <link id="themeStyle" rel="stylesheet" href="assets/css/light.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/stylesheet.css"> -->
     <link rel="icon" href="./assets/img/logo1.png" type="image/png">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,10 +20,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
-    <section id="header" class="header">
+    <section class="about-banner">
+        <div class="overlay"></div>
         <div class="navbar">
             <div class="logo">
                 <a href="#http://127.0.0.1:3006/index.html"><img src="assets/img/logo1.png" alt="logo image"></a>
@@ -58,16 +64,37 @@
             </a>
             <a href="#" class="get">Get Quote</a>
         </div>
-        <div class="about">
+
+        <div class="content">
             <h1>About Us</h1>
-            <h3>We are dedicated to delivering exceptional service in the fields of electrical installation,
-                maintenance, and solar energy solutions, as well as creative graphic design.</h3>
-            <p>With a team of highly skilled and experienced professionals, we take pride in providing safe, efficient,
-                and innovative solutions for both residential and commercial clients.</p>
+            <div class="colorful-line"></div>
+            <nav class="breadcrumb-nav">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li>/</li>
+                    <li class="active">About Us</li>
+                </ul>
+            </nav>
+            <div class="down-arrow">
+                <a href="#about-section">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </div>
         </div>
     </section>
 
     <section id="about-section" class="about-section">
+        <!-- Experience Box and Images -->
+        <div class="experience-section">
+            <div class="images">
+                <img class="repair" src="assets/img/3-1.jpg" width="450" height="455" alt="Image 1">
+                <img class="panel" src="assets/img/panel.webp" alt="Image 2">
+            </div>
+            <div class="experience-box">
+                <h5>5+ Years Experience</h5>
+            </div>
+        </div>
+
         <div class="about-content">
             <!-- About Us Text -->
             <h2>About Us</h2>
@@ -104,17 +131,6 @@
                 </div>
             </div>
             <a href="#" class="more">Discover More</a>
-        </div>
-
-        <!-- Experience Box and Images -->
-        <div class="experience-section">
-            <div class="images">
-                <img class="panel" src="assets/img/panel.webp" alt="Image 2">
-                <img class="repair" src="assets/img/3-1.jpg" width="450" height="455" alt="Image 1">
-            </div>
-            <div class="experience-box">
-                <h5>5+ Years Experience</h5>
-            </div>
         </div>
     </section>
 
